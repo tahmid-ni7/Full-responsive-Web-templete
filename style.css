@@ -1,0 +1,1495 @@
+/* ====================
+Template name: TWIST;
+======================= */
+
+
+/*===================
+CSS Index
+
+* Base CSS
+* Header CSS
+* Slider CSS
+* Owl Carousel CSS
+* Single Promo & tile gallary CSS
+* Service area CSS
+* Skill bar CSS
+* Say HELLO area  CSS
+* Portfolio CSS
+* Team member CSS
+* Testomonial CSS
+* Brand logo CSS
+* Footer area CSS
+======================*/
+
+
+
+/*============ Base CSS ===============*/
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i|Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i');
+
+* {
+    margin: 0 auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.boxed-btn:hover {
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 30px;
+    font-family: 'Zilla Slab', serif;
+    color: #333;
+    font-weight: 700;
+}
+
+body {
+
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    color: #888888;
+}
+
+.video-btn {
+    position: relative;
+    display: block;
+    margin-bottom: 45px;
+}
+
+.play-btn {
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    display: inline-block;
+    background-color: #0bbbc1;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.boxed-btn {
+    display: inline-block;
+    background-color: #0bbbc1;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Zilla Slab', serif;
+}
+
+.space-90 {
+    height: 90px;
+}
+
+.space-60 {
+    height: 60px;
+}
+
+body {
+    line-height: 1.7;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+a.date-btn {
+    display: inline-block;
+    background: #303030;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.bg-esh {
+    background-color: #fbfbfb;
+}
+
+
+/*============ Header CSS ===============*/
+
+.logo {
+    font-size: 20px;
+    /* color: #333; */
+}
+
+.logo a {
+    color: #333;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    position: relative;
+    transition: .3s;
+}
+
+.main-menu ul li a {
+    display: block;
+    padding: 3px 20px;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+}
+
+span.search-icon {
+    display: inline-block;
+    margin: 3px 0;
+}
+
+.header-area {
+    padding: 20px 0px;
+}
+
+.absolate-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.absolate-header .main-menu li a,
+.absolate-header a span,
+.logo a {
+    color: #fff;
+}
+
+
+/*============ Slider CSS ===============*/
+
+.slider-bg {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-color: #dddd;
+    position: relative;
+    z-index: 1;
+}
+
+.slide-bg-1 {
+    background-image: url(img/slider-img-1.jpg);
+}
+
+.slider-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    content: "";
+    opacity: .65;
+    z-index: -1;
+}
+
+.slide-text {
+    text-align: center;
+}
+
+.slide-text h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.slide-text h2 span {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.slide-text {
+    padding: 150px 0;
+}
+
+/*============ Owl Carousel CSS ===============*/
+
+.owl-carousel .owl-item .slide-text img {
+    width: auto;
+    display: inline-block;
+}
+
+.slider-img .owl-nav div {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+    margin-top: -20px;
+}
+
+.slider-img .owl-nav .owl-next {
+    right: 8%;
+    left: auto;
+}
+
+
+/*============ Single Promo & tile gallary CSS ===============*/
+
+.single-promo {
+    margin-bottom: 35px;
+}
+
+.single-promo-item {
+    text-align: center;
+}
+
+.single-promo-item .promo-icon {
+    font-size: 30px;
+    color: #11C0C5;
+    margin-bottom: 20px;
+}
+
+.tile-gallary {
+    position: relative;
+    height: 750px;
+    margin-left: 30px;
+}
+
+.tile-gallary img {
+    border-radius: 5px;
+    box-shadow: 4px 5px 10px #ddd;
+    /* height: 600px; */
+}
+
+.tile-gallary img:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 1;
+}
+
+.tile-gallary img:nth-child(2) {
+    position: absolute;
+    top: 36px;
+    right: -20px;
+    z-index: 2;
+}
+
+.tile-gallary img:nth-child(3) {
+    /* top: 369px; */
+    position: absolute;
+    left: 30px;
+    z-index: 3;
+    bottom: 0;
+}
+
+/*============ Service area CSS ===============*/
+
+.service-area:before {
+    background-image: url(img/service-bg.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.service-icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 100%;
+    width: 85px;
+    text-align: center;
+    font-size: 25px;
+    color: #11C0C5;
+    line-height: 40px;
+    margin-top: -20px;
+}
+
+.single-service-item {
+    position: relative;
+    display: block;
+    padding-left: 80px;
+    /* padding: 20px 0; */
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: #888;
+    font-size: 15px;
+}
+
+a.single-service-item:hover {
+    background-color: #11C0C5;
+}
+
+a.single-service-item:hover {
+    background-color: #11C0C5;
+    color: #fff;
+}
+
+a.single-service-item:hover .service-icon,
+a.single-service-item:hover h4 {
+    color: #fff;
+}
+
+a.single-service-item:hover:after {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    height: 100%;
+    width: 5000px;
+    background-color: #11C0C5;
+    content: "";
+}
+
+section.service-area {
+    overflow: hidden;
+    position: relative;
+}
+
+section.service-area:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    content: "";
+    width: 51%;
+
+}
+
+a.provided-service {
+    color: #888888;
+    display: block;
+}
+
+a.provided-service:hover {
+    background-color: #FBFBFB;
+}
+
+
+/*============ Skill bar CSS ===============*/
+
+.single-skill-bar {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.single-skill {
+    position: relative;
+}
+
+span.skill-count {
+    font-size: 48px;
+    color: #333;
+    font-weight: 700;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    line-height: 50%;
+    margin-top: -25px;
+}
+
+.single-skill-bar h3 {
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+/*============ Say HELLO area  CSS ===============*/
+
+.overlay-bg {
+    padding: 80px 0;
+    background-image: url(img/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.black-overlay:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    content: "";
+    opacity: .7;
+    /* z-index: -1;*/
+}
+
+.overlay-text,
+.overlay-text h2 {
+    color: #fff;
+}
+
+.overlay-btn {
+    margin-top: 12%;
+}
+
+.overlay-btn a:hover {
+    color: #fff;
+}
+
+.overlay-btn a {
+    font-size: 16px;
+}
+
+
+
+/*============ Portfolio CSS ===============*/
+
+
+.portfolio-bg-1 {
+    background-image: url(img/portfolio-img-1.jpg);
+}
+
+.portfolio-bg-2 {
+    background-image: url(img/portfolio-img-2.jpg);
+}
+
+.portfolio-bg-3 {
+    background-image: url(img/portfolio-img-3.jpg);
+}
+
+.portfolio-bg-4 {
+    background-image: url(img/portfolio-img-4.jpg);
+}
+
+.single-portfolio-item {
+    width: 100%;
+    height: 310px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 4px 4px 6px #dddd;
+    position: relative;
+    z-index: 2;
+    margin: 20px 0;
+}
+
+.single-portfolio-item.portfolio-bg-1.large {
+    height: 660px;
+}
+
+.porfolio-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.porfolio-hover:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    content: "";
+    opacity: .8;
+    z-index: -1;
+}
+
+.portfolio-hover-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio-hover-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.portfolio-hover-tablecell h4 {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.portfolio-hover-tablecell i {
+    color: #fff;
+    font-size: 30px;
+}
+
+.single-portfolio-item:hover .porfolio-hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+/*============ Team member CSS ===============*/
+
+.owl-carousel .owl-item img {
+    width: auto;
+    display: inline-block;
+}
+
+.single-member {
+    background-color: #fbfbfb;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 2px 3px 5px #dddd;
+    margin: 50px 0;
+    border: 1px solid transparent;
+}
+
+.single-member h4 span {
+    display: block;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: 300;
+
+}
+
+.single-member h4 {
+    margin-top: 12px;
+}
+
+.single-member img {
+    border-radius: 50%;
+}
+
+.member-list {
+    padding-bottom: 80px;
+}
+
+.owl-dots div {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #ddd;
+    display: inline-block;
+    text-align: center;
+    margin: 3px;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+.owl-dots div.active {
+    background-color: #0bbbc1;
+}
+
+.team-member-bg {
+    background-image: url(img/team-member-bg.jpg);
+}
+
+.team-member-bg {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+
+}
+
+.team-member-bg:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    content: "";
+    opacity: .6;
+    /* z-index: 1; */
+}
+
+.single-member:hover {
+    border: 1px solid #0BBBC1;
+}
+
+
+/*============ Testomonial CSS ===============*/
+
+
+.single-member-quote {
+    background: #fff;
+    text-align: center;
+    padding: 30px 15px;
+    border-radius: 5px;
+    color: #333;
+    margin: 35px 0;
+}
+
+.single-member-quote h1 {
+    color: #0BBBC1;
+    font-size: 70px;
+    margin-bottom: -15px;
+    font-weight: 700;
+}
+
+.single-member-quote p {
+    font-size: 15px;
+    font-weight: 700;
+    font-style: initial;
+    margin-bottom: 30px;
+}
+
+.single-member-quote h4 {
+    font-size: 18px;
+}
+
+.single-member-quote h4 span {
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 6px;
+}
+
+.section-title p,
+.section-title h2 {
+    color: #fff;
+}
+
+
+
+/*============ Brand logo CSS ===============*/
+
+.single-logo-table {
+    display: table;
+    width: 100%;
+    height: 70px;
+}
+
+.logo-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+
+
+/*============ Footer area CSS ===============*/
+
+
+footer {
+    background: #f5f5f5;
+    padding: 80px 0;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 2;
+    font-size: 16px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    display: inline-block;
+
+}
+
+footer ul a {
+    color: #333;
+    display: inline-block;
+}
+
+footer ul a:hover {
+    color: #0BBBC1;
+}
+
+footer h4 {
+    font-size: 18px;
+}
+
+footer .social-link a i {
+    display: inline-block;
+    font-size: 15px;
+    color: #333;
+    border: 1px solid #333;
+    margin-right: 5px;
+    /* padding: 10px; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+}
+
+footer .social-link a i:hover {
+    background-color: #03BCC2;
+    color: #fff;
+    border: #03BCC2;
+}
+
+
+/*=================== HOME PAGE-2 CSS =================*/
+
+
+
+
+/*=================== Hero area CSS =================*/
+
+.hero-bg {
+    background-image: url(img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+section.hero-area {
+    padding-bottom: 120px;
+    padding-top: 180px;
+}
+
+.hero-text {
+    color: #fff;
+    margin-top: 100px;
+}
+
+.hero-text h1 {
+    color: #fff;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+
+
+/*=================== Subscribe Form CSS =================*/
+
+
+.subscribe-form {
+    background-color: #fff;
+    padding: 40px;
+    border-top: 10px solid #0BBBC1;
+}
+
+.subscribe-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddd;
+}
+
+.subscribe-form input:focus {
+    outline: none;
+}
+
+.subscribe-form input[type=submit] {
+    background-color: #0BBBC1;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.subscribe-form p {
+    margin: 25px 0;
+}
+
+.subscribe-form h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.subscribe-form h3 span {
+    color: red;
+}
+
+/*=================== Presentaion CSS =================*/
+
+.presentaion-text {
+    padding-right: 40px;
+}
+
+.presentaion-text h3 {
+    font-size: 28px;
+}
+
+.presentaion-text .boxed-btn {
+    margin-top: 31px;
+}
+
+.presentaion-text p {
+    line-height: 1.95;
+}
+
+
+/*=================== Provided Service CSS =================*/
+
+.provided-service {
+    text-align: center;
+    padding: 20px;
+}
+
+.provided-service h3 {
+    font-size: 20px;
+    margin: 25px 0;
+}
+
+.provided-service .provided-service-icon {
+    font-size: 45px;
+    color: #750c0c;
+}
+
+.provided-service:hover {
+    background-color: #fbfbfb;
+}
+
+
+/*=================== Choose Us CSS =================*/
+
+.choose-us-bg {
+    background-image: url(img/choose-us-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.choose-us-bg h1 {
+    color: #fff;
+    font-size: 37px;
+}
+
+.choose-us-bg p {
+    color: #fff;
+}
+
+.choose-us-bg .boxed-btn {
+    margin-top: 40px;
+}
+
+
+/*=================== Blog CSS =================*/
+
+
+
+.single-blog h4 {
+    font-size: 20px;
+}
+
+.single-blog {
+    padding: 30px;
+    box-shadow: 0 0 10px #dddd;
+}
+
+.single-blog a.read-more-btn {
+    display: inline-block;
+    color: #03BCC2;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Zilla Slab', serif;
+    text-transform: capitalize;
+}
+
+a.read-more-btn i {
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+/*=================== End of home page-2 CSS =================*/
+
+
+
+
+/*=================== About Us CSS =================*/
+
+.about-header-area {
+    background-image: url(img/about-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.presentaion-img {
+    background-image: url(img/about-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+}
+
+.about-header-area {
+    padding-top: 180px;
+    padding-bottom: 120px;
+    color: #fff;
+}
+
+.about-header-area h2 {
+    color: #fff;
+    font-size: 36px;
+}
+
+.about-header-area a {
+    color: #fff;
+}
+
+.about-header-area i {
+    margin: 0 6px;
+}
+
+.about-service-bg {
+    background-image: url(img/about-service-bg.jpg);
+    position: relative;
+}
+
+.about-service-bg,
+.about-service-bg h3 {
+    color: #fff;
+}
+
+.about-service-bg .about-service-icon {
+    font-size: 40px;
+}
+
+
+
+/*=================== Nav menu CSS =================*/
+
+
+.widget {
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+
+.widget.nav_menu {
+    padding: 0;
+    background: transparent;
+}
+
+.nav_menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav_menu ul li a {
+    background: #f9f9f9;
+    display: block;
+    margin-bottom: 5px;
+    padding: 15px 30px;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.nav_menu ul li a:hover {
+    background-color: #0BBBC1;
+    color: #fff;
+}
+
+.widget .boxed-btn {
+    border-radius: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 15px;
+}
+
+.widget h3 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.service-description {
+    margin-left: 10px;
+}
+
+.service-description img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.service-description h3 {
+    font-size: 25px;
+}
+
+
+
+.portfolio-filter {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 40px;
+}
+
+.portfolio-filter li {
+    display: inline-block;
+    padding: 0 15px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.portfolio-filter li.active {
+    color: #0BBBC1;
+}
+
+.twist-faq .card {
+    margin-bottom: 12px;
+    background-color: #fbfbfb;
+    border: none;
+    text-align: left;
+    box-shadow: 1px 2px 4px #dddd;
+}
+
+a.btn.btn-link {
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Zilla Slab', serif;
+    text-decoration: none;
+}
+
+.card-body {
+    margin-top: -25px;
+}
+
+.card .faq h5 a:after {
+    /* font-family: fontAwesome; */
+    content: "+";
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background-color: #0BBBC1;
+    color: #fff;
+    padding: 0 9px;
+    font-size: 20px;
+}
+
+.card .faq h5 a[aria-expanded="true"]:after {
+    content: "-";
+    font-size: 20px;
+}
+
+.blog-thumb-bg-1 {
+    background-image: url(img/blog-thumb-bg-1.jpg);
+}
+
+.blog-thumb-bg-2 {
+    background-image: url(img/blog-thumb-bg-2.jpg);
+}
+
+.blog-thumb-bg-3 {
+    background-image: url(img/blog-thumb-bg-3.jpg);
+}
+
+.blog-thumb-bg-4 {
+    background-image: url(img/blog-thumb-bg-4.jpg);
+}
+
+.blog-thumb-bg-5 {
+    background-image: url(img/blog-thumb-bg-5.jpg);
+}
+
+.blog-thumb {
+    height: 300px;
+    width: 100%;
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+}
+
+.single-blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-description {
+    background-color: #fdfdfd;
+    padding: 25px 0;
+}
+
+.blog-date {
+    margin-bottom: 15px;
+}
+
+a.read-more-btn {
+    color: #0BBBC1;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Zilla Slab', serif;
+}
+
+.search-widget {
+    background: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 5px #ddd;
+    margin-bottom: 50px;
+}
+
+.search-form input {
+    padding: 0;
+    width: 80%;
+    padding: 15px;
+    border: none;
+    color: #333;
+    outline: none;
+}
+
+.search-form button {
+    border: none;
+    background: none;
+    float: right;
+    padding: 15px;
+    outline: none;
+}
+
+.thumb-post {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.thumb-post li {
+    border-bottom: 1px solid #5555;
+    margin-top: 20px;
+}
+
+.thumb-post li img {
+    border-radius: 50%;
+    max-height: 90px;
+    max-width: 90px;
+}
+
+.thumb-post li h3 a {
+    color: #333;
+    font-size: 18px;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.news-widget {
+    margin: 60px 0;
+}
+
+p.post-date {
+    margin-left: 95px;
+    margin-top: -15px;
+}
+ul.pagination li.page-item {
+    padding: 0;
+    margin: 0px;
+    border: none;
+}
+
+a.page-link {
+    border: none;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    margin: 6px;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 38px;
+    color: #333;
+}
+
+ul.pagination .page-item:last-child .page-link {
+    border-radius: 50%;
+}
+
+ul.pagination .page-item:first-child .page-link {
+    border-radius: 50%;
+}
+
+a.page-link.active {
+    background-color: #0bbbc1;
+}
+
+.blog-details-bg img {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.blog-details p {}
+
+.blog-details-content p {
+    line-height: 1.7;
+}
+
+.blog-details-text p {
+    line-height: 1.8;
+}
+
+blockquote {
+    background: #f9f9f9;
+    padding: 35px 50px;
+    width: 80%;
+    text-align: center;
+    margin: 50px;
+}
+
+.blog-details-text blockquote {}
+
+.blog-details-text {
+    margin-bottom: 80px;
+}
+
+.blog-details-content {}
+
+a.facbook-share-btn {
+    display: inline-block;
+    background-color: #275baa;
+    padding: 11px 30px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+a.facbook-share-btn i {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+a.twitter-share-btn {
+    display: inline-block;
+    background-color: #28c8f0;
+    padding: 11px 30px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+a.twitter-share-btn i {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+a.pinterest-share-btn {
+    display: inline-block;
+    background-color: #d6061e;
+    padding: 11px 30px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+a.pinterest-share-btn i {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.share-btn {
+    margin: 0px 15px;
+}
+
+.post-share {
+    margin-bottom: 80px;
+}
+
+.auther-details img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.auther-details h3 {
+    font-size: 16px;
+}
+
+.auther-details p {
+    font-size: 14px;
+}
+
+ul.comments {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li.comment {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+li.comment .comment-auther-img {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    border-radius: 50%;
+}
+
+ul.comments li {
+    padding-left: 100px;
+}
+
+.commet-meta h4 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.commet-meta span.comment-date {
+    font-size: 12px;
+}
+
+.commet-meta a.comment-reply-btn {
+    float: right;
+    margin-top: -25px;
+    color: #333;
+    font-weight: 700;
+    font-family: 'Zilla Slab', serif;
+    font-size: 16px;
+}
+
+.commet-meta a.comment-reply-btn:hover {
+    color: #0BBBC1;
+}
+
+li.comment p {
+    margin-top: 15px;
+}
+
+.comment-list {
+    margin-top: 60px;
+}
+
+h3.comment-title {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+h3.comment-title:after {
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    background: #0BBBC1;
+    content: "";
+    top: 42px;
+    left: 0;
+}
+
+.comment-form h2 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.comment-form form input,
+textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    margin-bottom: 30px;
+    padding: 15px;
+    outline: none;
+}
+
+.comment-form form input[type=submit] {
+    width: auto;
+    background: #0BBBC1;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    padding: 13px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Zilla Slab', serif;
+}
+
+h2.contact-title {
+    /*  margin: 0; 
+    margin-top: 0;*/
+}
+
+.contact-us-bg {
+    background-image: url(img/contact-us-bg.jpeg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-text {
+    /* z-index: 9; */
+    position: relative;
+    padding: 70px 40px;
+    color: #fff;
+}
+
+.contact-text h4 {
+    color: #fff;
+    margin-top: 32px;
+}
+
+.contact-text h4 i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* DROP-DAWN menu*/
+.main-menu ul li ul {
+    position: absolute;
+    display: block;
+    width: 180px;
+    background: #333;
+    left: -20px;
+    top: 33px;
+    padding: 15px 0;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.main-menu ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+
+.main-menu ul li a:hover {
+    color: #0BBBC1;
+}
+
+.main-menu ul li ul li {
+    display: block;
+}
+
+.main-menu ul li ul li a {
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+.main-menu ul li ul li:hover > a {
+    background: #0BBBC1;
+    color: #fff;
+}
+
+/*2nd level and more DROP-DAWN*/
+/*.main-menu ul li:hover ul ul{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.main-menu ul ul li:hover > ul {
+    left: 180px;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+}*/
