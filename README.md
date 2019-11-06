@@ -26,6 +26,5 @@ Thanks & Regards
 
 *Email: tahmid.ni7@gmail.com*
 
-#### See the screenshot of some pages in this templete: https://imgur.com/a/VnIKOAq here.
-
-
+## Live view
+See here, https://tahmid-ni7.github.io/Full-responsive-Web-templete-design-by-bootstrap-4/
